@@ -1,5 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
+
 import {socialMediaLinks} from "../../portfolio";
 
 export default function socialMedia() {
@@ -11,6 +12,7 @@ export default function socialMedia() {
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
+
           className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
