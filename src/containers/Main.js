@@ -20,6 +20,8 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import Test from "./contact/Test";
+import ContactUs from "./contact/ContactForm";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -65,6 +67,7 @@ const Main = () => {
             <Podcast />
             <Profile />
             <Footer />
+            {/* <ContactUs></ContactUs> */}
             <ScrollToTopButton />
           </>
         )}

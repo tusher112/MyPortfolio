@@ -1,6 +1,7 @@
 import React, {useState, useEffect, lazy, Suspense} from "react";
 import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
+import ContactUs from "../contact/ContactForm";
 import Loading from "../loading/Loading";
 
 const renderLoader = () => <Loading />;
